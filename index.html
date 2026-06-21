@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="icon" type="image/png" href="https://nobellocksmith.com/sitelogo.png">
+  <link rel="icon" type="image/png" href="https://nobellocksmith.com/logo.png.png">
   <meta charset="UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -9,10 +9,10 @@
   <!-- ========== GOOGLE SEARCH CONSOLE VERIFICATION ========== -->
   <meta name="google-site-verification" content="BMQPfr6rsEWr9c8tb1ZUDd-ZLuH9LjR2Jf0a4aZg9uw">
   
-  <!-- ========== SEO TITLE - MOST IMPORTANT FOR GOOGLE ========== -->
+  <!-- ========== SEO TITLE ========== -->
   <title>Nobel Locksmith | 24/7 Locksmith Philadelphia | Emergency Locksmith Near Me</title>
   
-  <!-- ========== META DESCRIPTION - APPEARS IN SEARCH RESULTS ========== -->
+  <!-- ========== META DESCRIPTION ========== -->
   <meta name="description" content="Nobel Locksmith provides 24/7 emergency locksmith services in Philadelphia and surrounding areas including Blue Bell, Ambler, King of Prussia. Commercial, residential, and automotive locksmith. Call now! +1 (215) 986-7885">
   
   <!-- ========== KEYWORDS FOR LOCAL SEO ========== -->
@@ -141,21 +141,33 @@
       padding: 1rem 0;
     }
 
-    .logo h1 {
+    /* ===== LOGO (top‑left) ===== */
+    .logo-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .logo-wrapper img {
+      height: 60px;
+      width: auto;
+      max-width: 180px;
+      object-fit: contain;
+    }
+    .logo-text h1 {
       font-size: 1.8rem;
       font-weight: 700;
       letter-spacing: -0.5px;
       color: var(--rolex-green);
     }
-    .logo span {
+    .logo-text h1 span {
       color: var(--rolex-gold);
       font-weight: 600;
     }
-    .tagline {
+    .logo-text .tagline {
       font-size: 0.75rem;
       letter-spacing: 1px;
       color: #5a6e6a;
-      margin-top: 4px;
+      margin-top: 2px;
       font-weight: 400;
     }
 
@@ -381,6 +393,39 @@
       color: var(--rolex-green);
     }
     
+    /* ===== BADGE (bottom‑right, fixed) ===== */
+    .badge-fixed {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 999;
+      width: 120px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+      padding: 10px 8px;
+      text-align: center;
+      border: 2px solid var(--rolex-gold);
+      transition: transform 0.2s ease;
+    }
+    .badge-fixed:hover {
+      transform: scale(1.05);
+    }
+    .badge-fixed img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .badge-fixed .badge-text {
+      font-size: 0.65rem;
+      font-weight: 700;
+      color: var(--rolex-green);
+      margin-top: 4px;
+      letter-spacing: 0.5px;
+      line-height: 1.2;
+    }
+    
     @media (max-width: 800px) {
       .navbar {
         flex-direction: column;
@@ -397,6 +442,22 @@
       .card-content h2 {
         font-size: 1.5rem;
       }
+      .logo-wrapper img {
+        height: 48px;
+        max-width: 130px;
+      }
+      .logo-text h1 {
+        font-size: 1.4rem;
+      }
+      .badge-fixed {
+        width: 80px;
+        bottom: 10px;
+        right: 10px;
+        padding: 6px 4px;
+      }
+      .badge-fixed .badge-text {
+        font-size: 0.5rem;
+      }
     }
     .anchor-offset {
       scroll-margin-top: 85px;
@@ -407,9 +468,13 @@
   <header>
     <div class="container">
       <div class="navbar">
-        <div class="logo">
-          <h1>NOBEL<span>LOCKSMITH</span></h1>
-          <div class="tagline"><i class="fas fa-key"></i> FAST · RELIABLE · LOCAL</div>
+        <!-- ===== LOGO (top‑left) ===== -->
+        <div class="logo-wrapper">
+          <img src="https://nobellocksmith.com/logo.png.png" alt="Nobel Locksmith Logo">
+          <div class="logo-text">
+            <h1>NOBEL<span>LOCKSMITH</span></h1>
+            <div class="tagline"><i class="fas fa-key"></i> FAST · RELIABLE · LOCAL</div>
+          </div>
         </div>
         <ul class="nav-links">
           <li><a href="#home" class="active nav-home">Home</a></li>
@@ -541,6 +606,12 @@
       </p>
     </div>
   </footer>
+
+  <!-- ===== BADGE (bottom‑right, fixed) ===== -->
+  <div class="badge-fixed">
+    <img src="https://nobellocksmith.com/badg.png.png" alt="Licensed & Insured Badge">
+    <div class="badge-text">INSURED &amp; LICENSED • PA215408</div>
+  </div>
 
   <script>
     const sections = [
