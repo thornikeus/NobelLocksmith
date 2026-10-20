@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://nobellocksmith.com/</loc>
-    <lastmod>2025-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  <url><loc>https://nobellocksmith.com/</loc><lastmod>2025-03-28</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nobellocksmith.com/portfolio.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/blue-bell-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/ambler-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/king-of-prussia-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/east-norriton-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/conshohocken-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/plymouth-meeting-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/trooper-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nobellocksmith.com/montgomery-county-locksmith.html</loc><lastmod>2025-03-28</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
